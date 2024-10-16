@@ -43,6 +43,7 @@ console.log(fullName);
   - Console.log your first favorite food
   - Console.log your last favorite food 
 */
+
 console.log(person.favThreeFoods [ 0 ]);
 console.log(person.favThreeFoods[person.favThreeFoods.length -1]);
 
@@ -65,3 +66,6 @@ console.log("new shoe count:" + person.shoeCount);
   - Cool huh? It works, even though it wasn't there before
   - Console.log your object
 */
+
+person.favoriteColor = "black";
+console.log(person.favoriteColor);
