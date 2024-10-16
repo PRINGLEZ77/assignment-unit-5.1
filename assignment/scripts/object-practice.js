@@ -13,7 +13,7 @@ let person = {
   firstName: "Lamar",
   lastName: "Pringle",
   hasSiblings: "true",
-  shoeCount: "6",
+  shoeCount: 6,
   favThreeFoods: ['wings', 'sushi', 'salads'] 
 }
 
@@ -54,6 +54,10 @@ console.log(person.favThreeFoods[person.favThreeFoods.length -1]);
   - Console.log your updated shoe count. 
 */
 
+console.log( person.shoeCount );
+
+person.shoeCount += 1
+console.log("new shoe count:" + person.shoeCount);
 
 /* 5. Add a new property to an existing object.
   - Add a 'favoriteColor' to your existing object
